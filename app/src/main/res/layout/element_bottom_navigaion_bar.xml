@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:gravity="center_horizontal"
+    >
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="100dp"
+        android:id="@+id/bottom_bar"
+        android:background="@drawable/background"
+        app:itemTextColor="@drawable/selecter"
+        app:itemIconTint="@drawable/selecter"
+        app:menu="@menu/menu_bottom_nav"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="10dp"
+        app:elevation="0dp"
+
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:theme="@style/PrimaryActionButton"
+        app:srcCompat="@android:drawable/ic_input_add"
+        android:tint="@android:color/white"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        />
+
+</RelativeLayout>
